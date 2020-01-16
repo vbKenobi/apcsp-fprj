@@ -66,7 +66,7 @@ li a:hover {
   <body>
 
     <ul>
-  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="http://rpi09/sp3b/index.html">Home</a></li>
 </ul>
     
 
