@@ -10,30 +10,6 @@ body {
  	background-color: #6fbbd3;
 }
 
-input[type=text] {
-
- width 100%;
- padding 12px 20px;
- margin 8px 0;
- box sizing: border-box;
- border: 1px solid #555;
- outline: none;
-}
-
-input[type=text]:focus {
- background-color: lightblue;
-}
-
-input[type=button], input[type=submit], input[type=reset]
-{
-background-color: blue;
-border: none;
-color: white;
-padding 16px 32 px;
-text-decoration: none;
-margin: 4px 2px;
-curssor: pointer;
-width: 25%;
 
 body {
   font-size: 28px;
