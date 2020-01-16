@@ -127,7 +127,7 @@ li a:hover {
     <?php
        // only display if return code is numeric - i.e. exec has been called
        if (is_numeric($retc)) {
-         echo "<h2>Program Output (an array):</h2>";
+         echo "<h2>Derivative/Series Answer:</h2>";
          foreach ($output as $line) {
            echo $line;
            echo "<br>";
