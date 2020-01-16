@@ -33,7 +33,7 @@ padding 16px 32 px;
 text-decoration: none;
 margin: 4px 2px;
 curssor: pointer;
-
+width: 25%;
 
 
 </style>
