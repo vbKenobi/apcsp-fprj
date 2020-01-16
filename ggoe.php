@@ -89,38 +89,13 @@ curssor: pointer;
     <?php
        // only display if return code is numeric - i.e. exec has been called
        if (is_numeric($retc)) {
-         echo "<h2>Your Input:</h2>";
-         echo $arg1;
-         echo "<br>";
-         echo $arg2;
-         echo "<br>";
-         echo $arg3;
-         echo "<br>";
-         echo $arg4;
-         echo "<br>";
-         echo $arg5;
-         echo "<br>";
-         echo $arg6;
-         echo "<br>";
-         echo $arg7;
-         echo "<br>";
-         echo $arg8;
-         echo "<br>";
-         echo $arg9;
-         echo "<br>";
-         echo $arg10;
-         echo "<br>";
-
-       
          echo "<h2>Program Output (an array):</h2>";
          foreach ($output as $line) {
            echo $line;
            echo "<br>";
          }
-       
        }
     ?>
-    
   </body>
 </html>
 
