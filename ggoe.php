@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html
   <head>
     <title>Form Input 2</title>
   </head>
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
 
+input[type=text]:focus {
+  background-color: lightblue;
+}
+  
+  body {
+  background-color: #6fbbd3;
+}
+</style>
 
   <body>
 
-    <h1>Form Input - Demo 2</h1>
-    <p>Demo of how to take form input and pass it to a program - all in a single page</p>
+    <h1>Derivative and Series Calcualtor</h1>
+    <p>Welcome to the Derivative and Series Calcualtor made by Yajn Bollapragada, and Bryton Lee. To use the derivative put dy in the upper bound and dx in the lower bound. Then enter the coefficaints for your four term polynomial. You must enter an input into ALL boxes otherwise you will be asked to retype your input.</p>
 
     <?php
        // define variables and set to empty values
@@ -82,10 +99,6 @@
            echo $line;
            echo "<br>";
          }
-       
-         echo "<h2>Program Return Code:</h2>";
-         echo $retc;
-       }
     ?>
     
   </body>
