@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html
+<html>
   <head>
-    <title>Form Input 2</title>
+    <title>Derivative and Series Calculator</title>
   </head>
-<style> 
+
+<style>
+
+body {
+ 	background-color: #6fbbd3;
+}
+
 input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 1px solid #555;
-  outline: none;
+
+ width 100%;
+ padding 12px 20px;
+ margin 8px 0;
+ box sizing: border-box;
+ border: 1px solid #555;
+ outline: none;
 }
 
 input[type=text]:focus {
-  background-color: lightblue;
+ background-color: lightblue;
 }
-  
-  body {
-  background-color: #6fbbd3;
-}
+
+input[type=button], input[type=submit], input[type=reset]
+{
+background-color: blue;
+border: none;
+color: white;
+padding 16px 32 px;
+text-decoration: none;
+margin: 4px 2px;
+curssor: pointer;
+
+
+
 </style>
+
+
 
   <body>
 
-    <h1>Derivative and Series Calcualtor</h1>
-    <p>Welcome to the Derivative and Series Calcualtor made by Yajn Bollapragada, and Bryton Lee. To use the derivative put dy in the upper bound and dx in the lower bound. Then enter the coefficaints for your four term polynomial. You must enter an input into ALL boxes otherwise you will be asked to retype your input.</p>
+    <h1>Welcome</h1>
+    <p>This program was made by Yajn B. and Bryton L. To access the derivative calcualtor please put dy in the upper bound and dx in the lower bound. You must enter all inputs for the program to work. </p>
 
     <?php
        // define variables and set to empty values
@@ -99,6 +117,8 @@ input[type=text]:focus {
            echo $line;
            echo "<br>";
          }
+       
+       }
     ?>
     
   </body>
