@@ -14,8 +14,17 @@ input[type=button], input[type=submit], input[type=reset] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+  width: 50%;
 }
-   
+  
+input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+}   
 
 body {
  	background-color: #6fbbd3;
