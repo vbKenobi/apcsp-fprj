@@ -80,8 +80,8 @@ curssor: pointer;
       Polynomial 2 (Exponent): <input type="text" name="arg6"><br>
       Polynomial 3 (Coefficient): <input type="text" name="arg7"><br>
       Polynomial 3 (Exponent): <input type="text" name="arg8"><br>
-      Polynomial 4 (Exponent): <input type="text" name="arg9"><br>
-      Polynomial 4 (Coefficient): <input type="text" name="arg10"><br>
+      Polynomial 4 (Coefficient): <input type="text" name="arg9"><br>
+      Polynomial 4 (Exponent): <input type="text" name="arg10"><br>
       <br>
       <input type="submit" value="Go!">
     </form>
