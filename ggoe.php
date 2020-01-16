@@ -24,6 +24,7 @@ input[type=text] {
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid blue;
+  background-color: #6fbbd3;
 }   
 
 body {
