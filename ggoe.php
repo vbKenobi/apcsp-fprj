@@ -6,6 +6,17 @@
 
 <style>
 
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: lightblue;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+   
+
 body {
  	background-color: #6fbbd3;
 }
