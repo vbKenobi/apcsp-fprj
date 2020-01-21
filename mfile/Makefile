@@ -1,4 +1,4 @@
-TARGET = student
+TARGET = FP
 LIBS = -lm
 CC = gcc
 CFLAGS = -g -Wall -I.
