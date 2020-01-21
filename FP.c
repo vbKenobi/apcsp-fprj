@@ -20,6 +20,8 @@ int main(int argc, char *argv[])
 
 float c1;
 float e1;
+float c2;
+float e2;
 char str[100];
 int len = 0;
 char *pstr = str;
