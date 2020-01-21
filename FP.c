@@ -76,5 +76,30 @@ if (strcmp(argv[1], "dy")== 0 && strcmp(argv[2], "dx") == 0 && isdigit(*argv[3])
   {
     printf("Invalid answers, try again.\n");
   }
+  if (strcmp(argv[1], "anti-y")== 0 && strcmp(argv[2], "anti-x") == 0 && isdigit(*argv[3]) && isdigit(*argv[4]) && isdigit(*argv[5]) && isdigit(*argv[6]) && isdigit(*argv[7]) && isdigit(*argv[8]) && isdigit(*argv[9]) && isdigit(*argv[10]))
+{
+if (strcmp(argv[1], "anti-y")==0 && strcmp(argv[2], "anti-x")==0)
+{  
+  for ( int i = 3; i <= argc-2; i = i +2)
+  {
+    c2 = atof(argv[i]);
+    e2 = atof(argv[i+1]);
+    if (c2 != 0 && e2 != 0)
+    {
+      e2 = e2 +1;
+      c2 = c2/e2;
+      len = sprintf(pstr, " %f(X^%f) +", c2, e2);
+      pstr += len;
+    }
+    else
+    {
+      c2 = 0; 
+      e2 = 0;
+    }
+  }
+  str[strlen(str)-1] = '\0';
+  printf("\n Anti-Derivative = %s\n", str);
+
+}
 }
 }
