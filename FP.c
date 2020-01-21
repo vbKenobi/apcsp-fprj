@@ -78,8 +78,7 @@ if (strcmp(argv[1], "dy")== 0 && strcmp(argv[2], "dx") == 0 && isdigit(*argv[3])
   }
   if (strcmp(argv[1], "anti-y")== 0 && strcmp(argv[2], "anti-x") == 0 && isdigit(*argv[3]) && isdigit(*argv[4]) && isdigit(*argv[5]) && isdigit(*argv[6]) && isdigit(*argv[7]) && isdigit(*argv[8]) && isdigit(*argv[9]) && isdigit(*argv[10]))
 {
-if (strcmp(argv[1], "anti-y")==0 && strcmp(argv[2], "anti-x")==0)
-{  
+ 
   for ( int i = 3; i <= argc-2; i = i +2)
   {
     c2 = atof(argv[i]);
